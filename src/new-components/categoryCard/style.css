@@ -1,0 +1,20 @@
+/*.category-card {*/
+/*    height: 178px;*/
+/*}*/
+
+@media only screen and (min-width: 768px) {
+    .category-card {
+        width: 223px !important;
+        height: 178px !important;
+        border-radius: 10px;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    .category-card {
+        width: 255px !important;
+        height: 137px !important;
+        border-radius: 10px;
+    }
+}

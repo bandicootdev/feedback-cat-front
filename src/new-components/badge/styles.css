@@ -1,0 +1,18 @@
+.badge-component{
+    height: 30px;
+    border-radius: 10px !important;
+    background: var(--button-color-gray) !important;
+    color: var(--color-blue) !important;
+}
+
+.badge-component:hover{
+    border-radius: 10px !important;
+    background: var(--badge-color) !important;
+    color: var(--color-blue) !important;
+}
+
+.badge-component:active{
+    border-radius: 10px !important;
+    background: var(--button-color-blue) !important;
+    color: var(--color-blank) !important;
+}

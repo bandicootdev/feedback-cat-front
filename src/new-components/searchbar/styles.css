@@ -1,0 +1,12 @@
+.search-bar {
+    width: 375px;
+    height: 72px;
+    background: var(--color-blue-alternative-dark);
+    color: #FFFFFF;
+}
+
+@media only screen and(min-width: 767px) {
+    .search-bar {
+        border-radius: 10px;
+    }
+}

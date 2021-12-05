@@ -1,0 +1,21 @@
+.vote-button {
+    width: 69px;
+    height: 32px;
+    border-radius: 10px;
+    background: var(--button-color-gray);
+    color: var(--color-blue);
+}
+
+.vote-button:hover {
+    background: var(--badge-color) ;
+    color: var(--color-blue) ;
+}
+
+.vote-button:active {
+    background: var(--button-color-blue) ;
+    color: var(--color-blank) ;
+}
+.vote-button >img{
+    width: 25px;
+    height: 15px;
+}

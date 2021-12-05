@@ -1,0 +1,26 @@
+.card-feedback {
+    border-radius: 10px;
+}
+
+.vote-button > img {
+    width: 11px;
+    height: auto;
+}
+
+h2.feedback-title {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 19px;
+    color: #3A4374;
+}
+
+p.feedback-description {
+    font-size: 13px;
+    line-height: 19px;
+    color: #647196;
+}
+
+.arrow {
+    width: 11px;
+    height: auto;
+}

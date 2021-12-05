@@ -1,3 +1,116 @@
 .App {
-  background-color: #F2F2F2;
+    min-height: 100vh;
 }
+
+.feedback-header {
+    margin-top: 72px;
+}
+
+.bg-color-layout {
+    background: #F7F8FD;
+}
+
+.fs-md {
+    font-size: 15px;
+}
+
+.fs-sm {
+    font-size: 13px;
+}
+
+.sidebar {
+    position: fixed;
+    right: 100%;
+    top: 72px;
+    min-height: calc(100vh - 72px);
+    z-index: 10;
+}
+
+.sidebar.open {
+    right: 0;
+    width: 70%;
+}
+
+.sidebar-overlay {
+    right: 0;
+    top: 72px;
+    position: fixed;
+    width: 100%;
+    min-height: calc(100vh - 72px);
+    z-index: 9;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.rounded-md.card,
+.rounded-md.btn {
+    border-radius: 10px;
+}
+
+.card-feedback-header {
+    height: 56px;
+}
+
+.card-list-category {
+    height: 178px;
+}
+
+
+.input-form-height {
+    height: 48px;
+}
+
+.position-top {
+    width: 56px;
+    height: 56px;
+    left: 24px;
+    top: -25px;
+}
+
+.button-add-new-feedback {
+    background-color: #AD1FEA !important;
+    color: #F2F4FE !important;
+}
+
+.button-add-cancel-feedback {
+    background-color: #3A4374 !important;
+    color: #F2F4FE !important;
+}
+
+.button-add-delete-feedback {
+    background-color: var(--button-color-orange) !important;
+    color: #F2F4FE !important;
+}
+
+
+/*.btn-vote{*/
+/*    width: ;*/
+/*}*/
+:root {
+    --color-purple: #AD1FEA;
+    --color-blue: #4661E6;
+    --color-gray-ligth: #F7F8FD;
+    --color-gray-medium: #979797;
+    --color-gray-dark: #647196;
+    --color-blank: #FFFFFF;
+    --color-blue-alternative-ligth: #3A4374;
+    --color-blue-alternative-dark: #373F68;
+    --color-orange: #F49F85;
+    --color-blue-ligth: #62BCFA;
+    --button-color-purple: #AD1FEA;
+    --button-color-purple-hover: #C75AF6;
+    --button-color-blue: #4661E6;
+    --button-color-blue-hover: #7C91F9;
+    --button-color-blue-alternative: #3373F68;
+    --button-color-gray: #F2F4FE;
+    --button-color-gray-hover: #656EA3;
+    --button-color-orange: #D73737;
+    --button-color-orange-hover: #E98888;
+    --badge-color: #CFD7FF
+}
+
+@media only screen and(min-width: 767px ) {
+    .card-etc {
+        width: calc(100% / 3);
+    }
+}
+

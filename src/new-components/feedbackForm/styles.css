@@ -1,0 +1,55 @@
+.color-input-gray {
+    height: 48px;
+    background: var(--color-gray-ligth) !important;
+}
+
+.textarea-form-height {
+    height: 120px;
+    background: var(--color-gray-ligth) !important;
+}
+
+.msg-error {
+    color: var(--button-color-orange) !important;
+}
+
+.msg-error-input {
+    border-color: var(--button-color-orange) !important;
+}
+
+.msg-active {
+    color: var(--button-color-purple) !important;
+}
+
+.msg-active-input {
+    border-color: var(--button-color-purple) !important;
+}
+
+.content-select-category {
+    position: relative;
+}
+
+.content-select-category:after {
+    content: url("/src/assets/shared/icon-arrow-down.svg");
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+/*.content-select-check-category {*/
+/*    position: relative;*/
+/*}*/
+
+/*.content-select-check-category:after {*/
+/*    content: url("/src/assets/shared/icon-arrow-down.svg");*/
+/*    position: absolute;*/
+/*    top: 10px;*/
+/*    right: 20px;*/
+/*}*/
+
+
+/*.content-select-category:active{*/
+/*    content: url("/src/assets/shared/icon-arrow-down.svg");*/
+/*    position: absolute;*/
+/*    top: 10px;*/
+/*    right: 20px;*/
+/*}*/

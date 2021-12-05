@@ -1,0 +1,11 @@
+.btn-add-feedback {
+    width: 134px;
+    height: 40px;
+    background: var(--button-color-purple) !important;
+    border-radius: 10px !important;
+    color: var(--color-blank) !important;
+}
+
+.btn-add-feedback:hover {
+    background: var(--button-color-purple-hover) !important;
+}
